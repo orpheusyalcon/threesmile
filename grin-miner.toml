@@ -193,17 +193,17 @@ nthreads = 16
 [[mining.miner_plugin_config]]
 plugin_name = "cuckatoo_lean_cuda_31"
 [mining.miner_plugin_config.parameters]
-#expand = 0
+expand = 0
 device = 0
-#cpuload = 1
-#ntrims = 176
-#genablocks = 4096
-#genatpb = 128
-#genbtpb = 128
-#trimtpb = 512
-#tailtpb = 1024
-#recoverblocks = 1024
-#recovertpb = 1024
+cpuload = 1
+ntrims = 176
+genablocks = 4096
+genatpb = 128
+genbtpb = 128
+trimtpb = 512
+tailtpb = 1024
+recoverblocks = 1024
+recovertpb = 1024
 
 # lean OpenCL supports both NVidia and AMD
 # very slow but requires ~ 3GB of RAM
