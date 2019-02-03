@@ -154,10 +154,10 @@ nthreads = 16
 #memory requirements are tight, don't drive a display
 #off the same card while trying to mine with an 11GB card
 
-[[mining.miner_plugin_config]]
-plugin_name = "cuckatoo_mean_cuda_gtx_31"
-[mining.miner_plugin_config.parameters]
-device = 0
+#[[mining.miner_plugin_config]]
+#plugin_name = "cuckatoo_mean_cuda_gtx_31"
+#[mining.miner_plugin_config.parameters]
+#device = 0
 #expand = 2
 #cpuload = 1
 #ntrims = 176
@@ -190,11 +190,11 @@ device = 0
 #recovertpb = 1024
 
 #lean cuda
-#[[mining.miner_plugin_config]]
-#plugin_name = "cuckatoo_lean_cuda_31"
-#[mining.miner_plugin_config.parameters]
+[[mining.miner_plugin_config]]
+plugin_name = "cuckatoo_lean_cuda_31"
+[mining.miner_plugin_config.parameters]
 #expand = 0
-#device = 0
+device = 0
 #cpuload = 1
 #ntrims = 176
 #genablocks = 4096
